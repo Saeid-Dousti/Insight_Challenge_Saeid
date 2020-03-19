@@ -1,5 +1,5 @@
 '''
-main process of the CSV data to create the output list with desired values
+- main process of the CSV data to create the output list with desired values
 '''
 def process_func(main_list):
     py_list = [ii['Product/Year'] for ii in main_list] #list of product/years
